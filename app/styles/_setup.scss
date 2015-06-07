@@ -1,0 +1,29 @@
+// Variabes
+$main-color: #FF8500;
+$main-color-hover: #DB8206;
+$secondary-color: #191919;
+$header-font: 'Fjalla One', sans-serif;
+$text-font: 'Rokkitt', serif;
+
+// Mixins
+@mixin button {
+  background: $main-color;
+  color: white;
+  padding: 2rem;
+  &:hover{
+    background: $main-color-hover;
+    color: white;
+  }
+}
+
+// Site-wide Styles
+
+body{
+  font-family: $header-font;
+  ul{
+    list-style: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}

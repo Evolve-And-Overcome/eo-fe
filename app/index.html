@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" ng-app="EvolveOvercome">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Evolve</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt|Fjalla+One' rel='stylesheet' type='text/css'>
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+
+    <header>
+      <div class="row">
+        <div class="upper-head col-lg-3 col-lg-offset-2">
+          <span class="glyphicon glyphicon-globe"> USA </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="slogan">
+          <h3 class="text-center">Can you Evolve? Can You Overcome ... Yourself?</h3>
+        </div>
+      </div>
+      <div class="row">
+        <nav>
+          <ul class="col-lg-6 col-lg-offset-4">
+            <a href="">ARTICLES</a> |
+            <a href="">WORKOUTS</a> |
+            <a href="">CONNECT</a> |
+            <a href="">CONTACT</a> |
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container" ui-view></div>
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="left col-lg-4">
+          <img class="img-responsive" src="../images/logo.png">
+          <h3> Evolve <span>&</span> Overcome </h3>
+        </div>
+        <div class="middle col-lg-4">
+          <ul>
+            <li><a href="">Articles</a></li>
+            <li><a href="">Workouts</a></li>
+            <li><a href="">Connect</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="right col-lg-4">
+          <h3>Follow Us & Start Evolving</h3>
+          <div class="social">
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-youtube"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/underscore/underscore.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,33 @@
+.main-header{
+  background: $main-color;
+  img{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+.main-content{
+  margin: 4rem 0rem 4rem 0rem;
+  text-align: center;
+  div{
+    height: 20rem;
+    border-right: 0.1rem solid gray;
+    padding: 1rem;
+    &:last-child{
+      border:none;
+    }
+    &:hover{
+      border-bottom: 1rem solid $main-color;
+      cursor: pointer;
+      h3{
+        color:$main-color;
+      }
+      i{
+        color:black;
+      }
+    }
+    i{
+      color: lightgray;
+      font-size: 12rem;
+    }
+  }
+}

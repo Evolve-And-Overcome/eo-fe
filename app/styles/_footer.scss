@@ -1,0 +1,41 @@
+footer{
+  color: white;
+  padding: 2rem;
+  background: $secondary-color;
+  a{
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+    &:hover{
+      color: $main-color;
+    }
+  }
+  .left{
+    padding:2rem;
+    img{
+      width:30%;
+      display:inline-block;
+      border-radius: 0.5rem;
+    }
+    h3{
+      display:inline-block;
+      margin-left: 3rem;
+      span{
+        color: $main-color;
+      }
+    }
+  }
+  .middle{
+    border-right: 0.1rem solid $main-color;
+    border-left: 0.1rem solid $main-color;
+    ul{
+      list-style: none;
+      li{
+        padding-bottom: 0.5rem;
+      }
+    }
+    a{
+      font-size: 1.5rem;
+    }
+  }
+}

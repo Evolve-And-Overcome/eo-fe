@@ -1,0 +1,39 @@
+header{
+  background: $secondary-color;
+  color: white;
+  padding: 1rem;
+  nav{
+    padding: 3rem;
+    font-size: 1.5rem;
+    margin: 0rem 0 1rem 0;
+    a{
+      color: $main-color;
+      font-family: $header-font;
+      margin: 0 2rem 1rem 2rem;
+      padding: 1rem;
+      &:hover{
+        background: $main-color;
+        color: white;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+  .navbar-header{
+    a{
+      img{
+        width: 5%;
+      }
+    }
+  }
+  .navbar-default{
+    background-color: white;
+    border: none;
+  }
+  .slogan{
+    background: white;
+    color:#69727B;
+    padding:1rem;
+    font-family: $header-font;
+    letter-spacing: 0.5rem;
+  }
+}
